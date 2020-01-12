@@ -15,12 +15,17 @@
 
     <PreferenceCategory android:title="Servicio" />
     <SwitchPreference
+        android:key="service-preference"
         android:summary="El servicio se iniciará automáticamente"
         android:title="Habilitar servicio" />
 
     <PreferenceCategory android:title="Seguridad" />
-    <CheckBoxPreference android:title="Utilizar cifrado" />
-    <ListPreference android:title="Algoritmo de cifrado"
-        android:entries="@array/algoritmos"/>
+    <CheckBoxPreference android:title="Utilizar cifrado"
+        android:key="encrypted-preference"/>
+    <ListPreference
+        android:key="algorithm-preference"
+        android:entries="@array/algoritmos"
+        android:entryValues="@array/codigoalgoritmos"
+        android:title="Algoritmo de cifrado" />
 
 </PreferenceScreen>
