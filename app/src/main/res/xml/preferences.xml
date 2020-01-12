@@ -25,7 +25,7 @@
     <ListPreference
         android:key="algorithm-preference"
         android:entries="@array/algoritmos"
-        android:entryValues="@array/codigoalgoritmos"
+        android:entryValues="@array/algoritmos"
         android:title="Algoritmo de cifrado" />
 
 </PreferenceScreen>
