@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <include
-        android:id="@+id/appbar"
+        android:id="@+id/toolbar"
         layout="@layout/toolbar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,7 +24,7 @@
         android:layout_marginTop="20dp"
         android:text="Usuario:"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appbar" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
     <TextView
         android:id="@+id/lblPassword"
@@ -69,7 +69,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toEndOf="@+id/lblUser"
-        app:layout_constraintTop_toBottomOf="@+id/appbar" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
     <TextView
         android:id="@+id/tvPassword"
