@@ -7,11 +7,12 @@
         <item>RC5</item>
         <item>IDEA</item>
     </string-array>
+    <!--
     <string-array name="codigoalgoritmos">
         <item>3DES</item>
         <item>AES</item>
         <item>Blowfish</item>
         <item>RC5</item>
         <item>IDEA</item>
-    </string-array>
+    </string-array> -->
 </resources>
