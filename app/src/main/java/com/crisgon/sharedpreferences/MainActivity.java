@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-
+/*
         boolean isService = false;
         boolean isEncrypted = false;
 
@@ -59,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
         editor.putBoolean("encrypted-preference", isEncrypted);
         editor.putString("algorithm-preference", tvEncryptedType.getText().toString());
         editor.apply();
+
+ */
     }
 
     @Override
